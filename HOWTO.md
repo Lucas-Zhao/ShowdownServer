@@ -16,5 +16,30 @@ Sprites are not included with any repository, we wrote a script to download them
 
 # Adding a pokemon
 
+Updates to these files are required to add a new pokemon:
+- data/formats-data.ts - This file controls the format restrictions for gen 9. All pokemon are listed here and can be given a tier for singles, double and national dex play. "Illegal" will make the pokemon not eligible for that format.
+- data/items.ts - This file controls the items available for gen 9. All items are listed here and can be given a gen which is used to control what gens/formats the item is legal in.
+- data/learnsets.ts - This file controls the moves a given pokemon can learn legally. See #learnset-codes below for more details.
+- data/moves.ts - This file controls move definitions. Add new moves here.
+- data/pokedex.ts - This file defines all pokemon available.
+- data/rulesets.ts - This file contains the rulesets for the different formats. Rulesets specify things like species clause and also implement the logic to handle validating teams to fit those rules.
+- texts/* These files contain descriptive texts for the different dex definition files that will be shown on screen.
 
 # Git
+
+
+
+# Learnset codes
+This table indicates the codes used for learnsets. A learnset code is specified as {gen}{code}{level}.
+For instance, 9L1 means [generation 9][Level-up][level 1].
+```
+ * - M = TM/HM
+ * - T = tutor
+ * - L = start or level-up, 3rd char+ is the level
+ * - R = restricted (special moves like Rotom moves)
+ * - E = egg
+ * - D = Dream World, only 5D is valid
+ * - S = event, 3rd char+ is the index in .eventData
+ * - V = Virtual Console or Let's Go transfer, only 7V/8V is valid
+ * - C = NOT A REAL SOURCE, see note, only 3C/4C is valid
+```
