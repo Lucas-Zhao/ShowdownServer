@@ -33,6 +33,20 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	serperiorite: {
+		name: "Serperiorite",
+		spritenum: 575,
+		megaStone: "Serperior-Mega",
+		megaEvolves: "Serperior",
+		itemUser: ["Serperior"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 674,
+		gen: 9,
+		// isNonstandard: "Past",
+	},
 	absolite: {
 		name: "Absolite",
 		spritenum: 576,

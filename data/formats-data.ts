@@ -6030,4 +6030,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	serperiormega: {
+		// isNonstandard: "Custom",
+		tier: "OU",
+		natDexTier: "UU",
+	},
 };
