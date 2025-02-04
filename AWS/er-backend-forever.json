@@ -9,6 +9,6 @@
 	"outFile": "/home/bitnami/logs/er-backend/out.log",
 	"errFile": "/home/bitnami/logs/er-backend/error.log",
 	"args": [
-		"prod", "4000"
+   "4000"
 	]
 }
