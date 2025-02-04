@@ -1,0 +1,8 @@
+{
+	"uid": "er-frontend",
+	"append": true,
+	"watch": false,
+	"script": "start_prod.js",
+	"sourceDir": "/home/bitnami/ShowdownClient/",
+	"workingDir": "/home/bitnami/ShowdownClient/",
+}
