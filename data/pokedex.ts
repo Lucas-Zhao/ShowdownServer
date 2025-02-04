@@ -9122,7 +9122,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		forme: "Mega",
 		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 80, atk: 100, def: 123, spa: 122, spd: 120, spe: 80},
+		baseStats: {hp: 75, atk: 95, def: 115, spa: 95, spd: 115, spe: 133},
 		abilities: {0: "Queenly Majesty"},
 		heightm: 2.4,
 		weightkg: 155.5,
