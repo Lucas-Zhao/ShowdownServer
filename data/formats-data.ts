@@ -6035,4 +6035,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 		natDexTier: "UU",
 	},
+	emboarmega: {
+		// isNonstandard: "Custom",
+		tier: "OU",
+		natDexTier: "UU",
+	},
 };
