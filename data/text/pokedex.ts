@@ -14,6 +14,9 @@ export const PokedexText: {[id: IDEntry]: PokedexText} = {
 	serperiormega: {
 		name: "Serperior-Mega",
 	},
+	emboarmega: {
+		name: "Emboar-Mega",
+	},
 	venusaurgmax: {
 		name: "Venusaur-Gmax",
 	},

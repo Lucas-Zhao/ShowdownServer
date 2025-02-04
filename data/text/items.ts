@@ -2288,6 +2288,10 @@ export const ItemsText: {[id: IDEntry]: ItemText} = {
 		name: "Serperiorite",
 		shortDesc: "If held by a Serperior, this item allows it to Mega Evolve in battle.",
 	},
+	emboarite: {
+		name: "Emboarite",
+		shortDesc: "If held by a Emboar, this item allows it to Mega Evolve in battle.",
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		shortDesc: "Halves damage taken from a supereffective Electric-type attack. Single use.",
